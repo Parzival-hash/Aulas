@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.containerBarraLateral{
+    width: 20%;
+    height: 100%;
+    
+    color: white;
+    
+    background-color: #252525;
+    border: 2px solid yellow;
+}
+
+
+.logo{
+    width: 45px;
+    height: 45px;
+    border: 2px solid green;
+    margin-top: 20px;
+    
+}
+
+.casa{
+    width: 45px;
+    height: 45px;
+    border: 2px solid green;
+    
+}

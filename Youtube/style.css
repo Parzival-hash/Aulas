@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Merriweather', serif;
+}
+body{
+    background-color: #18181b;
+    padding: 0%;
+    margin: 0%;
+}
+
+.containerPesquisa{
+    display: flex;
+}
+
+.pesquisa{ 
+    
+    margin-left: 40%;
+    margin-top: 10px;
+
+    background-color: rgba(80, 80, 80, 0.329);
+
+    border: 1px solid white;
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+    
+    width: 50%;
+    height: 30px;
+    max-width: 40%;
+}
+
+.lupa{
+    margin-top: 10px;
+
+    background-color: rgba(255, 255, 255, 0.671);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0px 20px 20px 0px;
+
+    width: 40px;
+    height: 30px;
+    max-width: 40%;
+
+    cursor: pointer;
+}
+
+.iconeLupa{
+    width: 25px;
+    height: 25px;
+    
+    margin-left: 2px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerBarraLateral{
+    width: 10%;
+    height: 100vh;
+    max-width: 400px;
+    
+    color: white;
+    
+    background-color: #252525;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Logo do Youtube */
+.logo{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+
+}
+
+
+.display {
+    width: 100%;
+    height: 40px;
+    margin-left: 20px;
+}
+
+/* HOME BARRA LATERAL */
+.home{
+    margin-top: 30px;
+    display: flex;
+}
+.casa{
+    width: 35px;
+    height: 35px;
+}
+
+.inicio{
+display: flex;
+align-items: center;
+margin-left: 15px;
+}
+
+/* Youtube Shorts Barra Lateral */
+.YoutubeShorts{
+    display: flex;
+    border: 2px solid red;
+}
+
+.shorts{
+    width: 35px;
+    height: 35px;
+    color: aliceblue;
+}
+
+.ytShorts{
+    display: flex;
+align-items: center;
+margin-left: 15px;
+}
+
+/* incrições */
+
+.Youtubeinscricoes{
+    display: flex;
+    border: 2px solid red;
+}
+
+.subscribe{
+    width: 35px;
+    height: 35px;
+
+    color: aliceblue;
+}
+
+.inscrições{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
+/* PRIMEIRA SEPARAÇÃO */
+
+.separação{
+    width: 100%;
+    height: 2px;
+    color: #fff;
+    background-color: #fff;
+    margin-top: 10px;
+    opacity: 0.5;
+
+}
+
+
+/* biblioteca */
+
+.YoutubeBiblioteca{
+    display: flex;
+    margin-top: 10px;
+    border: 2px solid red;
+}
+
+.biblioteca{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+/* historico */
+
+.YoutubeHistorico{
+    display: flex;
+    border: 2px solid red;
+}
+
+.historico{
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+/* login */
+
+.login{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 300px;
+    height: 100px;
+    margin-left: 10%;
+    border: 2px solid red;
+}
+
+.fazerLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botaoLogin{
+    border: 2px solid white;
+    border-radius: 20px 20px 20px 20px;
+
+    width: 90%;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+
+/* conatiner4 */
+
+.emAlta{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border: 2px solid red;
+}
+
+.alta{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border: 2px solid red;
+}
